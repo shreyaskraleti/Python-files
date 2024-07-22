@@ -1,5 +1,5 @@
 # list methods:
-# append, extend, insert, remove, pop, reverse, sort
+# append, extend, insert, remove, pop, clear, index, count, sort, reverse, del, copy
 
 # append - adds element to end
 a = [1,2,3,4,5]
