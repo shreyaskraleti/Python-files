@@ -1,7 +1,36 @@
+
+# list:
+# A list is a data structure that stores a collection of values.
+# The values in a list are stored in a contiguous block of memory.
+# This means that the values in a list are stored in a specific order,and can be accessed by their index.
+# The index of the first element in a list is 0, and the index of the last element is the length of the list minus 1.
+# The length of a list can be obtained by using the len() function.
+# A list can contain values of different types, and can be modified.
+# A list can be created by using the list() function.
+# allows duplication of data
+# mutable
+
+a = [1,2,3,4,5,6]
+print(a[-1])
+print(a[0:3])
+print(type(a))
+print(a[0:5:2])
+print(a[::1])
+print(a[::-1])
+
+b = ["shreya", "bonky", 2,3,4,5,2,3,4,2,3]
+print(b)
+print(type(b))
+print(b[-1])
+b[0] = 23
+print(b)
+print(len(b))
+
+
 # list methods:
 # append, extend, insert, remove, pop, clear, index, count, sort, reverse, del, copy
-
 # append - adds element to end
+
 a = [1,2,3,4,5]
 a.append(8)
 print(a)
@@ -33,7 +62,6 @@ print(a)
 # print(a) # int is not iterable only string is iterable
 
 #pop
-
 a = [1,2,3,4]
 a.pop()
 print(a)
@@ -61,6 +89,7 @@ print(a)
 
 # sort: gives the default output in ascending order
 # sort(reverse = True): gives the output in descending order
+
 a = [23, 12, 34, 56, 12, 13, 18, 1, 2]
 a.sort()
 print(a)
