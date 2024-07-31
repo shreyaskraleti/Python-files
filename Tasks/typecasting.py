@@ -1,3 +1,5 @@
+# LEARNED THIS TOPIC FROM CHATGPT AS THIS TOPIC IS NOT AVAILABLE IN RECORDING AND THIS WAS ASKED BY MAM IN CLASS.
+
 # type casting: is a process of converting a variable from one data type to another.
 x = int(5.023)
 print(x)

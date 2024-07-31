@@ -18,7 +18,7 @@ print(a) # doesnt allow duplicates in output
 
 # Set Methods:
 # add(), clear(), copy(), difference(), difference_update(), discard(), intersection(), intersection_update(), is
-# subset(), isdisjoint(), issubset(), issuperset(), pop(), remove(), symmetric_difference
+# subset(), isdisjoint(), union(), issuperset(), pop(), remove(), symmetric_difference
 
 #union:
 a = {1,2,3,"shreya", 5, "bonky"}
