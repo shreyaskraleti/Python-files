@@ -41,5 +41,13 @@ print(name,age)
 # Output: shreya 30
 
 #augmented assignment:
+#   - `x` is assigned the value of `x + 10`
+x = 5
+print(x)
+x += 3
+print(x)
+x *= 2
+print(x)
+# Output: 5 8 16
 
 
