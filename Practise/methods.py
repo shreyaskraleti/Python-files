@@ -90,3 +90,102 @@ print(t.index(2))
 print(t.index(1))
 print(t.index(3))
 
+# set methods:
+# union
+# intersection
+# difference
+# symmetric_difference
+# add
+# remove
+# discard
+# pop
+#clear
+# issubset
+# issuperset
+# copy
+# update
+# isdisjoint
+
+#union:
+s1 = {1,2,3,4,5,10}
+s2 = {4,5,6,7,8,9}
+print(s1.union(s2))
+
+#intersection:
+s1 = {1,2,3,4,5,10}
+s2 = {2,3,4,6,7,8}
+print(s1.intersection(s2))
+
+#add:
+s = {1,2,3,4,5}
+s.add(7)
+print(s)
+s.add("shreya")
+print(s)
+
+#update:
+s = {1,2,3,4,5}
+s.update([6,7,8,9])
+print(s)
+
+#copy:
+s = {1,2,3,4,5}
+t = s.copy()
+print(t)
+
+#pop:
+s = {1,2,3,4,5}
+s.pop()
+print(s)
+s.pop()
+print(s)
+
+#clear:
+s = {1,2,3,4,5}
+s.clear()
+print(s)
+
+#discard:
+s = {1,2,3,4,5}
+s.discard(3)
+print(s)
+
+#remove:
+s = {1,2,3,4,5}
+s.remove(4)
+print(s)
+
+#issubset:
+a = {1,2,3}
+b = {1,2,3,4,5}
+print(a.issubset(b))
+
+#issuperset:
+a = {1,2,3,4,5}
+b = {1,2,3}
+print(a.issuperset(b))
+
+#isdisjoint:
+a = {1,2,3}
+b = {4,5,6}
+print(a.isdisjoint(b))
+
+a = {1,2,3}
+b = {1,2,4}
+print(a.isdisjoint(b))
+
+#difference:
+a = {1,2,3,4,5}
+b = {4,5,6}
+print(a.difference(b))
+print(b.difference(a))
+
+#symmetric difference:
+a = {1,2,3,4,5}
+b = {4,5,6}
+print(a.symmetric_difference(b))
+print(b.symmetric_difference(a))
+
+a = {3,4,5}
+b = {8,9,3}
+print(a.symmetric_difference(b))

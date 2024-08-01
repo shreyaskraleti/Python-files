@@ -23,6 +23,8 @@
 #   - can be used to perform any necessary setup or initialization
 #   - can be used to set default values for attributes
 #   - can be used to perform any necessary validation or error checking
+#_init__ method: A special method called a constructor that gets called when an instance of the class is created. 
+#    It's used to initialize the attributes of the class.
 
 # self keyword:
 # - used to refer to the current instance of the class
@@ -35,6 +37,17 @@
 #   - defines the properties and behavior of an object
 #   - used to group related data and methods together
 #   - used to create multiple objects that share the same properties and behavior
+#   A blueprint for creating objects. 
+#   It defines a set of attributes and methods that the objects created from the class can have.
+
+# object:
+# In Python, an object is an instance of a class
+# Instance of a Class: Objects are created from a class. 
+# For example, if you have a Dog class, you can create multiple Dog objects (each representing a specific dog).
+# # Creating objects of the Dog class
+# dog1 = Dog(name="Buddy", age=3)
+# dog2 = Dog(name="Lucy", age=5)
+
 
 class Person:
     def __init__(self,name,age,address):
