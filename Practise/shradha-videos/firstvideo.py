@@ -38,3 +38,15 @@ print(type(x))
 
 z = None
 print(type(z))
+
+
+a = 2
+b = 5
+sum = a+b
+print(sum)
+
+a = 5
+b = 2
+sub = a-b
+print(sub)
+
