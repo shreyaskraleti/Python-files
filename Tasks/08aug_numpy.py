@@ -1,7 +1,7 @@
 # 1. using predefined function:
 import numpy as np
-A = np.array([[1,2,3],
-              [4,5,6]])
+A = np.array([[1, 2, 3],
+              [4, 5, 6]])
 AT = np.transpose(A)
 print(A)
 print(AT) # rows changed to columns in transpose
@@ -39,7 +39,7 @@ result = np.char.upper(arr1)
 print(result)
 
 # Strip - head and tails
-arr1 = np.array([' Hello  ' , '  Phani  '])
+arr1 = np.array([' Hello  ', '  Phani  '])
 result = np.char.strip(arr1)
 print(result)
 
