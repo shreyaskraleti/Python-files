@@ -2,7 +2,7 @@
 #   - returns a new list with the results of applying the given function to each item of the original list.
 #   - the function is applied to each item in the list, and the results are collected in a new list, which is then returned.
 #   - the original list is not modified.
-#  map() function in Python is a built-in function that applies a given function to all items of an iterable (such as a list, tuple, etc.) 
+#  map() function in Python is a built-in function that applies a given function to all items of an iterable (such as a list, tuple, etc.)
 # and returns a map object (which is an iterator).
 
 #  The map() function takes two arguments: a function and an iterable. It applies the function
@@ -26,8 +26,8 @@
 #   squares = list(map(lambda x: x**2, numbers))
 #   print(squares)  # Output: [1, 4, 9,16,25]
 
-#using lambda
-a = [1,2,3,4,5]
+# using lambda
+a = [1, 2, 3, 4, 5]
 square = list(map(lambda x: x**2, a))
 print(square)
 
@@ -38,30 +38,40 @@ div = list(map(lambda x: x/2, a))
 print(div)
 
 # applying function to multiple iterables
-def add(x,y):
+
+
+def add(x, y):
     return x+y
-def sub(x,y):
+
+
+def sub(x, y):
     return x-y
-a = [1,2,3]
-b = [4,5,6]
+
+
+a = [1, 2, 3]
+b = [4, 5, 6]
 add = list(map(add, a, b))
 print(add)
 sub = list(map(sub, a, b))
 print(sub)
 
 # applying function
-a = [1,2,3]
+a = [1, 2, 3]
+
+
 def square(x):
     return x**2
+
+
 squares = list(map(square, a))
 print(squares)
 
 # converting data types
-string = ["1","2","3"]
+string = ["1", "2", "3"]
 integers = list(map(int, string))
 print(integers)
 
 # applying builtin functions using map:
-numbers = [-1,-2,3,-4,-5,6,-7,8,9,-10]
+numbers = [-1, -2, 3, -4, -5, 6, -7, 8, 9, -10]
 absolute = list(map(abs, numbers))
 print(absolute)
