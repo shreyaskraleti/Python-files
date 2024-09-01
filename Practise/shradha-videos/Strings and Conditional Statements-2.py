@@ -27,7 +27,6 @@
 # print(a[:10])
 
 
-
 # # Negative Slicing:
 # a = "shreya loves bonky"
 # print(a[-1])
@@ -62,15 +61,15 @@
 # Conditional statements:
 
 marks = int(input("enter marks:"))
-if (marks>=90):
+if (marks >= 90):
     print("grade is A")
-elif (marks>=80 and marks<90):
+elif (marks >= 80 and marks < 90):
     print("grade is B")
-elif (marks>=70 and marks<80):
+elif (marks >= 70 and marks < 80):
     print("grade is C")
 else:
     print("grade is D")
-    
+
 # nesting:
 age = int(input("Enter age: "))
 
@@ -81,7 +80,3 @@ if age >= 18:
         print("Adult")
 else:
     print("Minor")
-
-
-
-    

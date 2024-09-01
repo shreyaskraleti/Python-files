@@ -7,7 +7,7 @@ print(30)
 print(23+30)
 print(23*2)
 
-name = "shreya" # string - within double quotes or single quotes
+name = "shreya"  # string - within double quotes or single quotes
 age = 30
 price = 25.03
 print(name)
@@ -64,19 +64,19 @@ print(a+b)  # output: 7
 print(a-b)
 print(a*b)
 print(a/b)
-print(a%b) # remainder
+print(a % b)  # remainder
 print(a**b)
 
 # 2. Relational/comparison operators:
 # ==, !=, >, <, >=, <=
 a = 40
 b = 50
-print(a==b)
-print(a!=b)
-print(a>b)
-print(a<b)
-print(a>=b)
-print(a<=b)
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
 
 # 3. Assignment Operators:
 # =, +=, -=, *=, /=, %=, **=
@@ -102,20 +102,20 @@ print(a)
 # not: negates the condition
 a = 10
 b = 20
-print(a>b and a<b)
-print(a>b or a<b)
-print(not (a>b))
+print(a > b and a < b)
+print(a > b or a < b)
+print(not (a > b))
 print(not True)
 print(not False)
 
 # type conversion:
 # int(), float(), str(), bool(), complex()
 a = 10
-print(int(a)) # converts to integer
-print(float(a)) # converts to float
-print(str(a)) # converts to string
-print(bool(a)) # converts to boolean
-print(complex(a)) # converts to complex number
+print(int(a))  # converts to integer
+print(float(a))  # converts to float
+print(str(a))  # converts to string
+print(bool(a))  # converts to boolean
+print(complex(a))  # converts to complex number
 
 b = 10.56
 print(int(b))
@@ -152,5 +152,5 @@ print("average is : ", (a+b)/2)
 # 5. a <= b : False
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
-print(a>=b)
-print(a<=b)
+print(a >= b)
+print(a <= b)
