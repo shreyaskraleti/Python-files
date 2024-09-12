@@ -35,7 +35,8 @@ def search_contact(contact_book):
         print(f"Contact found: {name} - {contact_book[name]}")
     else:
         print(f"Contact '{name}' does not exist in the contact book.")
-        
+
+
 def view_all_contacts(contact_book):
     if not contact_book:
         print("No contacts found in the contact book.")
@@ -44,7 +45,8 @@ def view_all_contacts(contact_book):
         for name, phone_number in contact_book.items():
             print(f"{name}: {phone_number}")
         print("====================")
-        
+
+
 def main():
     # Create an empty dictionary to store contacts
     contact_book = {}
