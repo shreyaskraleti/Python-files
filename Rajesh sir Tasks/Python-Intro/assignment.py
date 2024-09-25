@@ -20,6 +20,7 @@
 
 # Python is chosen for various reasons, including:
 
+
 # Readability and Simplicity: Python's syntax is clean and straightforward, making it easy to read and write. This allows developers to focus on problem-solving rather than getting bogged down by complex syntax.
 
 # Versatility: Python is a general-purpose language, meaning it can be used for web development, data analysis, machine learning, automation, scientific computing, and more.
