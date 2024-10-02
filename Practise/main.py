@@ -8,7 +8,7 @@ def main():
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="shreya93@",
+        password="Deepika2019Bonky",
         database="bakery_management"
     )
 
@@ -32,7 +32,7 @@ def main():
         if choice == '1':
             username = input("Username: ")
             password = input("Password: ")
-            role = input("Role (cashier/manager): ").lower()
+            role = input("Role (cashier/x): ").lower()
             auth.register(username, password, role)
 
         elif choice == '2':
