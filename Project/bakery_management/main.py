@@ -3,6 +3,7 @@ from auth import Auth
 from items import BakeryItem
 from reports import Reports
 
+
 def main():
     # Database Connection
     db = mysql.connector.connect(
@@ -68,6 +69,7 @@ def main():
 
         else:
             print("Invalid choice. Please try again.")
+
 
 if __name__ == "__main__":
     main()
