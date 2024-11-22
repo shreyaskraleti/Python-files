@@ -1,0 +1,118 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %} Home {% endblock title %}
+
+{% block banner_slider %}
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="{% static 'app/images/banner/b1.jpg' %}" class="d-block w-100" alt="Slide 1">
+    </div>
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="{% static 'app/images/banner/b2.jpg' %}" class="d-block w-100" alt="Slide 2">
+    </div>
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="{% static 'app/images/banner/b3.jpg' %}" class="d-block w-100" alt="Slide 3">
+    </div>
+    <!-- Slide 4 -->
+    <div class="carousel-item">
+      <img src="{% static 'app/images/banner/b4.jpg' %}" class="d-block w-100" alt="Slide 4">
+    </div>
+  </div>
+  <!-- Optional Controls -->
+  <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+{% endblock banner_slider %}
+
+{% block information %}
+<div class="container">
+  <div class="row bg-success text-center p-5 text-white border-bottom shadow">
+    <h2>Products</h2>
+    <small class="fs-5">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+      the industry's standard dummy text ever since the 1500s...
+    </small>
+  </div>
+</div>
+{% endblock information %}
+
+{% block main-content %}
+<div class="container">
+  <h2 class="text-center mb-4">Dairy Products</h2>
+  <div class="row">
+    <!-- Product 1: Ghee -->
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center shadow-sm">
+        <img src="{% static 'app/images/product/cow-ghee.png' %}" class="card-img-top" alt="Ghee">
+        <div class="card-body">
+          <h5 class="card-title">Ghee</h5>
+          {% comment %} <a href="#" class="btn btn-primary">View Details</a> {% endcomment %}
+        </div>
+      </div>
+    </div>
+    <!-- Product 2: Curd -->
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center shadow-sm">
+        <img src="{% static 'app/images/product/curd-total.png' %}" class="card-img-top" alt="Curd-total">
+        <div class="card-body">
+          <h5 class="card-title">Curd-total</h5>
+          {% comment %} <a href="#" class="btn btn-primary">View Details</a> {% endcomment %}
+        </div>
+      </div>
+    </div>
+    <!-- Product 3: Kulfi -->
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center shadow-sm">
+        <img src="{% static 'app/images/product/kulfi.png' %}" class="card-img-top" alt="Kulfi">
+        <div class="card-body">
+          <h5 class="card-title">Kulfi</h5>
+          {% comment %} <a href="#" class="btn btn-primary">View Details</a> {% endcomment %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <br> <br>
+  <div class="row">
+    <!-- Product 4: Milkshake -->
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center shadow-sm">
+        <img src="{% static 'app/images/product/milk-shake-chocolate.png' %}" class="card-img-top" alt="Ghee">
+        <div class="card-body">
+          <h5 class="card-title">MilkShake</h5>
+          {% comment %} <a href="#" class="btn btn-primary">View Details</a> {% endcomment %}
+        </div>
+      </div>
+    </div>
+    <!-- Product 5: Milk -->
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center shadow-sm">
+        <img src="{% static 'app/images/product/cow-milk.png' %}" class="card-img-top" alt="Curd-total">
+        <div class="card-body">
+          <h5 class="card-title">Milk</h5>
+          {% comment %} <a href="#" class="btn btn-primary">View Details</a> {% endcomment %}
+        </div>
+      </div>
+    </div>
+    <!-- Product 6: Icecream -->
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="card text-center shadow-sm">
+        <img src="{% static 'app/images/product/icbars.png' %}" class="card-img-top" alt="Kulfi">
+        <div class="card-body">
+          <h5 class="card-title">Icecream</h5>
+          {% comment %} <a href="#" class="btn btn-primary">View Details</a> {% endcomment %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock main-content %}
